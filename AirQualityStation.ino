@@ -102,6 +102,7 @@ void loop() {
       dataString += String(gps.altitude.meters()) + ",";
 
       // Temperature and Humidity
+      am2302.read();
       dataString += String(am2302.get_Temperature()) + ",";
       dataString += String(am2302.get_Humidity()) + ",";
 
