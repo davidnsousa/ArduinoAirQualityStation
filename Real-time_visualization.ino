@@ -51,7 +51,7 @@ AM2302::AM2302_Sensor am2302{PIN_AM2302};
 
 // Connect MQ-135 and define calibrated RZERO
 #define PIN_MQ135 A2
-#define RZERO 995
+#define RZERO 30
 MQ135 mq135_sensor(PIN_MQ135,RZERO);
 
 // Connect GPS
