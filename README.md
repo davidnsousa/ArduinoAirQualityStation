@@ -1,6 +1,6 @@
 # Air Quality Station
 
-Arduino air quality station that collects and logs temperature, humidity, GPS and CO2 equivalent data to a file in an SD card. The code was developed for an educational activity as part of [GeoAcademy Project](https://geoacademy.eu), an EU-funded project promoting geospatial and environmental learning through hands-on activities. This README file provides information about the components, libraries, wiring instructions, and calibration steps.
+Arduino air quality station that collects and logs temperature, humidity, GPS and CO2 equivalent data to a file in an SD card. The code was developed for an educational activity as part of [GeoAcademy Project](https://geoacademy.eu), an EU-funded project promoting geospatial and environmental learning through hands-on activities. This README file provides information about the components, libraries, wiring instructions, and calibration steps for two versions of the Air Quality Station. One for data logging using an SD card shield, and another one for real-time-visualization using an LCD display.
 
 # Index
 
@@ -29,6 +29,8 @@ Arduino air quality station that collects and logs temperature, humidity, GPS an
 ## Air quality data logger
 
 This version of the Air Quality Station will write the collected data to an SD card, but does not allow real-time visualization, except through the Arduino Serial monitor when it is connected through USB.
+
+[Code](Data_logger.ino)
 
 ### Components Used
 
@@ -112,6 +114,8 @@ YYYY-MM-DD HH:MM:SS,latitude,longitude,altitude(m),temperature(C),humidity(%),pp
 ## Air quality real-time data visualization
 
 This version of the Air Quality Station will output the data to the LCD display, but does not allow data logging.
+
+[Code](Real-time_visualization.ino)
 
 ### Components Used
 
