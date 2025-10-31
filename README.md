@@ -37,7 +37,7 @@ This version of the Air Quality Station will write the collected data to an SD c
 - **AM2302 Temperature & Humidity Sensor** to measure ambient temperature and humidity.
 - **MQ-135 Gas Sensor** to measure air quality (CO2 equivalent concentration).
 - **GPS NEO-6M Module** to fetch latitude, longitude, altitude and real-time date/time.
-- **SD Card Module** to logs data to a file.
+- **HW-169 Data Logger Shield (SD Card Module)** to log data to a file.
 - **Arduino Board** UNO Rev3 to run the code and connect peripherals.
 - **Other**: jumper wires and breadboard (if you are not prototyping directly in SD card shield).
 
